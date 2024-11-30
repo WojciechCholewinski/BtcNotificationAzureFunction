@@ -1,0 +1,13 @@
+{
+	"Finnhub": {
+		"ApiKey": "",
+		"Symbol": "BINANCE:BTCUSDT"
+	},
+	"EmailSettings": {
+		"SmtpHost": "smtp.gmail.com",
+		"SmtpPort": 123,
+		"FromEmail": "",
+		"FromPassword": "",
+		"ToEmail": ""
+	}
+}
