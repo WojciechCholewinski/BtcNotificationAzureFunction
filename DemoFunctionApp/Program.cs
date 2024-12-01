@@ -8,7 +8,7 @@ var host = new HostBuilder()
     .ConfigureServices(services => {
         services.AddApplicationInsightsTelemetryWorkerService();
         services.ConfigureFunctionsApplicationInsights();
-        services.AddHttpClient(nameof(BitcoinPriceChecker));
+        services.AddHttpClient<BitcoinPriceChecker>();
     })
     .Build();
 
